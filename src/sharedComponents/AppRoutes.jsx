@@ -9,6 +9,7 @@ import Faq from "../scenes/faq";
 import Bar from "../scenes/bar";
 import Pie from "../scenes/pie";
 import Line from "../scenes/line";
+import Geography from "../scenes/geography";
 
 const routes = [
     { path: "/", element: <Dashboard  /> },
@@ -20,7 +21,8 @@ const routes = [
     { path: "/faq", element: <Faq  /> },
     { path: "/bar", element: <Bar  /> },
     { path: "/pie", element: <Pie  /> },
-    { path: "/line", element: <Line  /> }
+    { path: "/line", element: <Line  /> },
+    { path: "/geography", element: <Geography  /> }
 ];
  
 const AppRoutes = () => {
